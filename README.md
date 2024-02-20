@@ -2,18 +2,14 @@
 
 ## How I build this project
 
-Hello Everyone, Myself Aryan Jaiswal. I am a 2nd-year Undergrad Student in Computer Science and Engineering. I am pursuing my B.tech from the Kalinga Institute of Industrial Technology.
+Hello Everyone, Myself Sudhanshu Kumar. I am a 4th-year Undergrad Student in Electronics & Communication Engineering. I am pursuing my B.tech from Sant Longowal Institute of Engineering and Technology.
  
-First of all, I would like to thank Microsoft for giving this great mentorship program. In this mentorship program, I have learned many things.
- 
-In the starting, I have no idea how to start because I have no more knowledge of development. Simply I start with python. Learn python as per requirement then I learned how to build a GUI application with Python Tkinter. Then I learned a little bit about some libraries such as OpenCV, Numpy, and Face Recognition. I have also learned about the MySQL database.
+
+Simply I start with python. Learn python as per requirement then I learned how to build a GUI application with Python Tkinter. Then I learned a little bit about some libraries such as OpenCV, Numpy, and Face Recognition. I have also learned about the MySQL database.
  
 During building this project I have faced a lot of problems such as the installation process of all libraries, connecting with the database, how to use face recognition and how to store the face data etc.
 But solving all the problems finally, I have built this project. Firstly, I build a Face Recognition based Attendance System then after that I decided to build a standard Authentication system using face recognition. Then after building authentication, I attached it with Face Recognition based Attendance System.
 
-## Demo
-
-https://youtu.be/4llekhpDu5M
 
 
 ## System Requirements
@@ -51,7 +47,7 @@ If the face detector lag its means server working slow because it's database con
 If any case get a error of mysql database then please use offline databse which is comment down in whole code.
 Offline database code look like this:- 
 
-#conn = mysql.connector.connect(host="localhost", user="root", password="Aryan@123",
+#conn = mysql.connector.connect(host="localhost", user="root", password="123",
                               #database="face_recognition", auth_plugin="mysql_native_password")            #please change it accoridng to database
 #my_cursor = conn.cursor()
 
@@ -59,13 +55,7 @@ Change this code in every python file where it is present, if online database wi
 
 Please don't forget to scan face after add student details and user data otherwise face recognition algorithm will not work properly.
 
-## Online Databse Credentials
 
-Server: sql6.freemysqlhosting.net
-Name: sql6495753
-Username: sql6495753
-Password: KLdC4PA9zU
-Port number: 3306
 
 ## for developer
 
@@ -78,14 +68,5 @@ username:-- user
 
 password:-- user
 
-## Download Executable File
 
-https://drive.google.com/file/d/1-LExsWzuFhs99sKF2raQSdUZbukhA3NX/view?usp=sharing
 
-After download this file move it into this github folder and run this executable file.
-
-It will not work outside this folder so please first move this into this demo folder then run it.
-
-## Document
-
-https://drive.google.com/file/d/1vm4LqeFC0X8cGfSadA-fMirUTOHiSCVc/view?usp=sharing
